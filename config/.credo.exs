@@ -73,7 +73,7 @@
         # set this value to 0 (zero).
         #
         {Credo.Check.Design.TagTODO},
-        {Credo.Check.Design.TagFIXME, false},
+        {Credo.Check.Design.TagFIXME},
         {Credo.Check.Readability.FunctionNames},
         {Credo.Check.Readability.LargeNumbers},
         {Credo.Check.Readability.MaxLineLength, priority: :low, max_length: 80},
