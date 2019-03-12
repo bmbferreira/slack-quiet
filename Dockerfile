@@ -9,7 +9,6 @@ ARG APP_NAME=slack_quiet
 ENV MIX_ENV=${MIX_ENV:-prod}
 ENV REPLACE_OS_VARS=true
 
-# Install the hex package manager.
 RUN mix local.hex --force
 
 # We need Erlang's build tool too.
